@@ -34,10 +34,10 @@ root.render(
 
 // const commentElement_1 = (
 //   <Comment
-//     author={{
+//     author={
 //       name: "Bard 1",
 //       avatarUrl: "https://avatars.githubusercontent.com/bard",
-//     }}
+//     }
 //     text="This is a test comment."
 //     date="2023-12-03T11:22:00Z" // Replace with actual date
 //   />
