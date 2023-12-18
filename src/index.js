@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Welcome from './Welcome';
 import Comment from "./Comment";
+import Layout from './Layout';
+import BareInput from './BareInput';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
