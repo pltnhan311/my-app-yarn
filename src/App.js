@@ -5,6 +5,7 @@ import BareInput from './BareInput';
 import Layout from "./Layout";
 import BareButton from './BareButton';
 import LoginControl from "./LoginControl";
+import CorrectlyState from './CorrectlyState';
 
 function App() {
   const [name, setName] = useState('Nvidia')
@@ -27,6 +28,7 @@ function App() {
       </Layout >
 
       <LoginControl />
+      <CorrectlyState/>
     </div>
   );
 }
