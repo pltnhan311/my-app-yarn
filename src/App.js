@@ -4,6 +4,7 @@ import Clock from './Clock';
 import BareInput from './BareInput';
 import Layout from "./Layout";
 import BareButton from './BareButton';
+import LoginControl from "./LoginControl";
 
 function App() {
   const [name, setName] = useState('Nvidia')
@@ -23,7 +24,9 @@ function App() {
           onChange={() => {}}
         />
         <BareButton/>
-      </Layout>
+      </Layout >
+
+      <LoginControl />
     </div>
   );
 }
