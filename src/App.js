@@ -7,13 +7,14 @@ import BareButton from './BareButton';
 import LoginControl from "./LoginControl";
 import CorrectlyState from './CorrectlyState';
 import ProductList from './ProductList/ProductList';
+import Form from "./Form/Form";
 
 function App() {
   const [name, setName] = useState('Nvidia')
   const [visible, setVisible] = useState(true)
   return (
     <div className="App">
-      <button onClick={() => setName("AMD")}>Change name</button>
+      {/* <button onClick={() => setName("AMD")}>Change name</button>
       <button onClick={() => setVisible(false)}>Hide Clock Component</button>
       {visible && <Clock name={name} />}
       <Layout>
@@ -30,7 +31,8 @@ function App() {
 
       <LoginControl />
       <CorrectlyState />
-      <ProductList/>
+      <ProductList /> */}
+      <Form/>
     </div>
   );
 }
