@@ -8,6 +8,7 @@ import LoginControl from "./LoginControl";
 import CorrectlyState from './CorrectlyState';
 import ProductList from './ProductList/ProductList';
 import Form from "./Form/Form";
+import UncontrolledComponent from './Form/UncontrolledComponent';
 
 function App() {
   const [name, setName] = useState('Nvidia')
@@ -32,9 +33,10 @@ function App() {
       <LoginControl />
       <CorrectlyState />
       <ProductList /> */}
-      <Form/>
+      {/* <Form/> */}
+      <UncontrolledComponent/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
