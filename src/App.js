@@ -7,8 +7,9 @@ import BareButton from './BareButton';
 import LoginControl from "./LoginControl";
 import CorrectlyState from './CorrectlyState';
 import ProductList from './ProductList/ProductList';
-import Form from "./Form/Form";
-import UncontrolledComponent from './Form/UncontrolledComponent';
+import Forms from './Forms/Form'
+import UncontrolledComponent from './Forms/UncontrolledComponent';
+import Calculator from './Calculator/Calculator';
 
 function App() {
   const [name, setName] = useState('Nvidia')
@@ -34,7 +35,9 @@ function App() {
       <CorrectlyState />
       <ProductList /> */}
       {/* <Form/> */}
-      <UncontrolledComponent/>
+      {/* <Forms/> */}
+      {/* <UncontrolledComponent/> */}
+      <Calculator/>
     </div>
   )
 }
