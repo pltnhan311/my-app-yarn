@@ -10,6 +10,8 @@ import ProductList from './ProductList/ProductList';
 import Forms from './Forms/Form'
 import UncontrolledComponent from './Forms/UncontrolledComponent';
 import Calculator from './Calculator/Calculator';
+import Inheritance from './CompositionvsInheritance/Inheritance';
+import Composition from './CompositionvsInheritance/Composition';
 
 function App() {
   const [name, setName] = useState('Nvidia')
@@ -37,7 +39,9 @@ function App() {
       {/* <Form/> */}
       {/* <Forms/> */}
       {/* <UncontrolledComponent/> */}
-      <Calculator/>
+      {/* <Calculator/> */}
+      {/* <Inheritance/> */}
+      <Composition/>
     </div>
   )
 }
